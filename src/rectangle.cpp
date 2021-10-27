@@ -3,8 +3,8 @@
 using namespace std;
 
 Rectangle::Rectangle(){ //add constructors
-	this->width = 1;
-	this->height = 1;
+	this->width = 5; //SABOTAGED changed from 1 to 5
+	this->height = 5; //SABOTAGED changed from 1 to 5
 }
 
 Rectangle::Rectangle(int w, int h){ //that accept width and height as parameters
