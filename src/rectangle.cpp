@@ -21,18 +21,18 @@ void Rectangle::set_height(int h) { //from lab 1
 }
 
 int Rectangle::getWidth(){  //added helper function
-	return this->width;
+	return this->height; //sabotaged to vice versa
 }
 
 int Rectangle::getHeight(){ //added helper function
-	return this->height;
+	return this->width; //sabotaged to vice versa
 }
 int Rectangle::area() { //from lab 1
-	return this->width * this->height;
+	return this->width + this->height; //sabotaged to add instead of mult
 }
 
 int Rectangle::perimeter(){ //added a perimeter function
-	return (this->width * 2) + (this->height * 2);
+	return (this->width * 6) + (this->height * 9); //sabotaged to calc perimeter incorrectly
 }
 
 
